@@ -1,4 +1,4 @@
-import img from "../kuke.jpg";
+import img from "../components/images/kuke.jpg";
 import {Link} from "react-router-dom";
 import "./Home.css";
 const Home = ({ name, title}) => {
