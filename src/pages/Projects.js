@@ -1,9 +1,9 @@
-function Projects(){
- return(
-    <div>
-        Projects
-    </div>
- )
-}
-
-export default Projects;    
+function projects(){
+    return(
+       <div>
+           Projects ha ha ha
+       </div>
+    )
+   }
+   
+   export default projects
