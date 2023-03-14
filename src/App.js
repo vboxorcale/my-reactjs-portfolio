@@ -14,6 +14,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 // import Wrapper from './components/Wrapper';
+const projectData = [
+  { id: 1, title: 'Project 1', description: 'This is project 1' },
+  { id: 2, title: 'Project 2', description: 'This is project 2' },
+  { id: 3, title: 'Project 3', description: 'This is project 3' },
+  { id: 4, title: 'Project 4', description: 'This is project 4' },
+  { id: 5, title: 'Project 5', description: 'This is project 5' },
+  { id: 6, title: 'Project 6', description: 'This is project 6' },
+];
+
 const App =()=>{
     return(
 <div>
@@ -28,6 +37,10 @@ const App =()=>{
             <Route path="/Contact" element={<Contact/>}/>
             <Route path="/Projects" element={<Projects/>}/>
           </Routes> 
+          {projectData.map(project => (
+        <Projects key={project.id} title={project.title} description={project.description} />
+      ))}  
+    
       </div>
     </Router>           
 </div>

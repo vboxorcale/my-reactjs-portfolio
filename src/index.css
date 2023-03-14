@@ -16,7 +16,7 @@ body {
 
 
 
- .home{
+.home{
     margin: 10px;
     font-size: 20px;
 }
@@ -30,3 +30,8 @@ body {
     margin: 10px;
     font-size: 20px;
 }   
+
+.projects{
+    margin: 10px;
+    font-size: 20px;
+}

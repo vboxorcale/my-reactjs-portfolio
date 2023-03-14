@@ -7,7 +7,7 @@ const Home = ({ name, title}) => {
             <img alt="kruru" src={img}/> 
             <section>
                 <h1>My name is {name}</h1> 
-                <p>Title:  {title} </p>
+                <h2>Title:  {title} </h2>
             </section>
             
         </section>
