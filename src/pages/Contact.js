@@ -1,7 +1,7 @@
-
+import { Link } from 'react-router-dom';
 const contact=()=>{
     return <div>
-        contact me
+         <Link to="https://www.github.com/vboxorcale">Go to My Github</Link>
        </div>
     
    }

@@ -4,7 +4,7 @@ const about = () => {
         <div className="card">
        
          <div className="card-body">
-          <h4 className="card-text">Welcome to my page! My name is Kururu, and I'm a member of the Keroro Platoon, a group of alien frogs from the planet Keron. But don't worry, I'm not here to harm anyone! We're just a bunch of friendly frogs who love to have fun and explore new worlds.
+          <h4 className="card-text">Welcome to my page! My name is Kururu, and I'm a member of the Keroro Platoon, a group of alien frogs from the planet Keron. But don't worry, I'm not here to harm anyone! I'm a friendly frog who love to have fun and explore new worlds.
 
 As the resident technological genius of the Keroro Platoon, I'm responsible for creating all sorts of amazing gadgets and devices to help us with our missions. From advanced weapons and spacecraft to high-tech robots and disguises, there's nothing I can't build! I'm always tinkering with new ideas and designs, and I love nothing more than a good challenge.
 

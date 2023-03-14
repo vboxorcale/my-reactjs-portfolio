@@ -2,6 +2,7 @@ import img from "../components/images/kuke.jpg";
 import "./Home.css";
 const Home = ({ name, title}) => {
  name = "Kururu"
+ title = "Web Developer"
     return <div>
         <section className="splash">
             <img alt="kruru" src={img}/> 
