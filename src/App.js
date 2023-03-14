@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from './pages/Contact';
+import Header from './components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Discover from './pages/Discover';
@@ -15,18 +17,17 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const App =()=>{
     return(
 <div>
+
     <Router>
       <div>
-         <h1>Hello World</h1>
-          <Routes>
-        
+        <Header/>
+         <h1>KURURU's Portfolio</h1>
+          <Routes>      
             <Route path="/" element={<Home/>} />
             <Route path="/About" element={<About/>}/>
             <Route path="/Contact" element={<Contact/>}/>
             <Route path="/Projects" element={<Projects/>}/>
-        
-          </Routes>
-       
+          </Routes> 
       </div>
     </Router>           
 </div>

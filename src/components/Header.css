@@ -1,0 +1,13 @@
+header {
+    background-color: rgb(187, 230, 160);
+    padding-left: 30px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     align-items: center;
+     color: rgb(255, 0, 200);
+     text-align: center;
+     justify-content: center;
+     padding-right: 30px;
+     padding-left: 30px;
+  
+  }
