@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // Define an array of project data, with each object representing a project
 const projectData = [
   { id: 1, title: 'Project 1', description: 'This is project 1' },
